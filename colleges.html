@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colleges PANGASINAN STATE UNIVERSITY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white; /* Default text color */
+            background-image: url('psubackground.jpg'); /* Full page background image */
+            background-size: cover; /* Cover the entire page */
+            background-position: center; /* Center the image */
+            min-height: 100vh; /* Ensure it takes at least full viewport height */
+        }
+        .header {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for header */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .selection {
+            margin: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .button {
+            background-color: #008CBA; /* Blue */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 20px; /* Vertical margin for spacing */
+            margin-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #005f73; /* Darker blue */
+        }
+        .content {
+            position: relative; /* Position relative for overlay */
+            padding: 20px;
+            min-height: 100vh; /* Ensure it takes at least full viewport height */
+        }
+        .overlay {
+            position: absolute; /* Position absolute to cover content */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            z-index: 1; /* Ensure overlay is above the background */
+        }
+        .content-inner {
+            position: relative; /* Position relative for z-index */
+            z-index: 2; /* Ensure content is above the overlay */
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center the content */
+            align-items: flex-start; /* Align items to the start */
+            gap: 40px; /* Space between the two sections */
+        }
+        .header-images {
+            display: flex;
+            flex-direction: column; /* Stack images vertically */
+            gap: 10px; /* Space between images */
+            align-items: center; /* Center images horizontally */
+        }
+        .header-images a {
+            display: block; /* Make the anchor a block element */
+        }
+        .header-images img {
+            height: 250px; /* Set a fixed height for all images */
+            width: auto; /* Maintain aspect ratio */
+            border-radius: 5px; /* Optional: Add rounded corners */
+            transition: transform 0.3s; /* Smooth transition for hover effect */
+            object-fit: cover; /* Ensure images cover the area without distortion */
+        }
+        .header-images h3 {
+            color: white; /* Change title color to white */
+            font-family: 'Courier New', Courier, monospace; /* Change font to Courier */
+            font-size: 2em; /* Increase font size */
+            text-align: center; /* Center the titles */
+            margin-bottom: 15px; /* Space below the titles */
+            margin-top: -20px; /* Move the title up */
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Optional: Add a subtle shadow */
+        }
+        .header-images img:first-child {
+            height : 300px; /* Set the desired height */
+            margin-top: 10px; /* Move the first image up */
+        }
+        .header-images img:hover {
+            transform: scale(1.05); /* Scale image on hover */
+        }
+    
+        hr {
+            border: none; /* Remove default border */
+            height: 1px; /* Set height for the line */
+            background-color: white; /* Set line color to white */
+            margin: 20px 0; /* Add margin above and below the line */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Colleges We Offer</h1>
+        <h2>Click the photos below</h2>
+        <div class="selection">
+            <a href="home.html" class="button">Home</a>
+            <a href="colleges.html" class="button">Colleges</a>
+            <a href="aboutus.html" class="button">About us</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="overlay"></div> <!-- Dark overlay -->
+        <div class="content-inner">
+            <div class="header-images">
+                <h3>COLLEGE <br>OF<br> TECHNOLOGY AND BUSINESS</h3>
+                <a href="bsitpage.html">
+                    <img src="q.png" alt="Tech College 1">
+                </a>
+                <a href="bitpage.html">
+                    <img src="qw.png" alt="Tech College 2">
+                </a>
+                <a href="bsbapage.html"> 
+                    <img src="qwe.png" alt="Tech College 3">
+                </a>
+            </div>
+            <hr> <!-- Thin line separator -->
+            <div class="header-images">
+                <h3>COLLEGE <br>OF <br>  EDUCATION</h3>
+                <a href="bsepage.html">
+                    <img src="qwer.png" alt="New Tech College 1">
+                </a>
+                <a href="beepage.html">
+                    <img src="qwert.png" alt="New Tech College 2">
+                </a>
+                <a href="btlepage.html">
+                    <img src="qwerty.png" alt="New Tech College 3">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

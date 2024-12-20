@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSIT Program</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: 
+                linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('tiger.png');
+            background-size: cover;
+            background-position: center;
+            color:yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            max-width: 1500px;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .side-images {
+            display: flex;
+            flex-direction: column;
+            margin: 0 5px;
+            flex: 1;
+        }
+
+        .side-images img {
+            width: 100%;
+            height: 200px;
+            margin: 10px 0;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+
+        .side-images img:hover {
+            opacity: 1;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 15px;
+            flex: 3;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #ffcc00;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .button:hover {
+            background-color: #e6b800;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <div class="side-images">
+        <img src="bsitlogo.jpg" alt="Image 1">
+        <img src="officers.jpg" alt="Image 2">
+        <img src="pogi.jpg" alt="Image 3">
+    </div>
+
+    <div class="overlay">
+        <i><h1>Welcome to the BSIT Program</h1>
+        <b><p>BSIT stands for Bachelor of Science in Information Technology, an undergraduate degree focused on the study and application of technology to solve business, organizational, or societal challenges. The program equips students with practical and theoretical knowledge in areas like:</p></b>
+<p>
+<b>Programming and Software Development</b>
+Learning languages like Python, Java, C++, etc.
+<b><p>Networking and Cybersecurity</b>
+Understanding systems like cloud computing, network setup, and security protocols.</p>
+<b><p>Database Management</b>
+Working with SQL, NoSQL, and database systems to manage and analyze data.</p>
+<b><p>Web Development</b>
+Designing and developing websites and web applications.</p>
+<b><p>System Analysis and Design</b>
+Studying business requirements to create efficient IT solutions.</p>
+<b><p>IT Project Management</b>
+Planning, executing, and overseeing tech projects.
+<b><p>Graduates can pursue careers as software engineers, network administrators, web developers, data analysts, IT consultants, and more.</p></i>
+
+<p>The program duration typically lasts 3-4 years, depending on the country and institution..</p></b>
+        <p><a href="HOME.html" class="button">HOME</a></p>
+    </div>
+
+    <div class="side-images">
+        <img src="cheerdance.jpg" alt="Image 4">
+        <img src="champ.jpg" alt="Image 5">
+        <img src="old.jpg" alt="Image 6">
+    </div>
+</div>
+
+</body>
+</html>

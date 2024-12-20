@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us PANGASINAN STATE UNIVERSITY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white; /* Default text color */
+            background-image: url('psubackground.jpg'); /* Full page background image */
+            background-size: cover; /* Cover the entire page */
+            background-position: center; /* Center the image */
+            min-height: 100vh; /* Ensure it takes at least full viewport height */
+        }
+        .header {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for header */
+            color: white;
+            padding: 10px 20px;
+            text-align: left;
+        }
+        .selection {
+            margin: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .button {
+            background-color: #008CBA; /* Blue */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #005f73; /* Darker blue */
+        }
+        .content {
+            position: relative; /* Position relative for overlay */
+            padding: 20px;
+            min-height: 100vh; /* Ensure it takes at least full viewport height */
+        }
+        .overlay {
+            position: absolute; /* Position absolute to cover content */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            z-index: 1; /* Ensure overlay is above the background */
+        }
+        .content-inner {
+            position: relative; /* Position relative for z-index */
+            z-index: 2; /* Ensure content is above the overlay */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>PANGASINAN STATE UNIVERSITY</h1>
+        <div class="selection">
+            <a href="home.html" class="button">Home</a>
+            <a href="colleges.html" class="button">Colleges</a>
+            <a href="aboutus.html" class="button">About us</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="overlay"></div> <!-- Dark overlay -->
+        <div class="content-inner">
+            <h2>Content Section</h2>
+            <p><i>
+<h1>Address</h1>
+<h2>Alvear St., Poblacion, Lingayen, 2401 Pangasinan</h2>
+
+<h1>Email</h1>
+<h2>prpio@psu.edu.ph</h2>
+
+<h1>Office Hours</h1>
+<h2>Monday – Friday
+8:00 AM -5:00 PM</h2>
+
+<h1>Phone Number/s</h1>
+<h2>(075) 632-6513</h2>
+.</p></i>
+        </div>
+    </div>
+
+</body>
+</html>
